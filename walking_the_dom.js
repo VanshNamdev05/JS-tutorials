@@ -19,3 +19,4 @@ document.title= "Hello 😉";
 console.log(document.title);
 console.log(typeof document.title);
 
+// document.body can sometimes be null if the javascript is written before the body tag
