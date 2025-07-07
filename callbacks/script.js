@@ -37,4 +37,5 @@ function hello(error, src){
 
 }
 
-loadScript("https://cdn.uhjsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js", hello);
+// loadScript("https://cdn.uhjsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js", hello); // correct
+loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js", hello); //incorrect
