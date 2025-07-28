@@ -21,7 +21,7 @@ let ani = new Animal("Zebra", "B&W");
 let m = new Monkey("Chimpu", "Brown");
 
 ani.shout();
-m.shout();
-m.eatBanana();
+m.shout();//will run the code from its base class i.e animal class
+m.eatBanana(); 
 // ani.eatBanana(); // --> this will not work as monkey is not the base class...
 
